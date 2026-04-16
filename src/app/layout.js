@@ -31,12 +31,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {/* Client Component এখানে wrap করা যাবে */}
-        <AppProvider>
+      
+       
           <Navbar />
           {children}
           <Footer />
-        </AppProvider>
+        
       </body>
     </html>
   );

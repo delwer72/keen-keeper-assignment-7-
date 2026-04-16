@@ -4,7 +4,7 @@ import React from 'react';
 const page = () => {
   return (
     <div>
-      dynamic page
+      This is a dynamic page
     </div>
   );
 };
